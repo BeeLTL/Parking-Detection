@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<form action="/start_tracking" method="post" class="video-jump-buttons">
+    <div class="select-menu">
+        <div class="select-btn model-select-btn">
+            <span class="sBtn-text">Select your Model</span>
+            <i class="fa fa-angle-down"></i>
+        </div>
+        <ul class="options">
+            <li class="option">
+                <span class="option-text">Yolov8</span>
+            </li>
+        </ul>
+    </div>
+    <button class="seek" type="submit">Go</button>
+
+    <input type="hidden" name="model" id="model-input">
+
+    <div class="select-menu select-menu-tracker" style="display: none;">
+        <div class="select-btn tracker-select-btn">
+            <span class="sBtn-text">Select your Tracker</span>
+            <i class="fa fa-angle-down"></i>
+        </div>
+        <ul class="options">
+            <li class="option option-tracker">
+                <span class="option-text">None</span>
+            </li>
+
+            <li class="option option-tracker">
+                <span class="option-text">ByteTrack</span>
+            </li>
+            <li class="option option-tracker">
+                <span class="option-text">BotSort</span>
+            </li>
+        </ul>
+    </div>
+    <input type="hidden" name="tracker" id="tracker-input">
+
+</form>
+
+
+
+{% endblock %}
