@@ -26,8 +26,8 @@
 > - [ Overview](#overview)
 > - [ Features](#features)
 > - [ Repository Structure](#repository-structure)
+> -  [ Project contents](#project-contents)
 > -  [ Getting Started](#getting-started)
-> - [ Project contents](#project-contents)
 > - [ Installation](#installation)
 
 ---
