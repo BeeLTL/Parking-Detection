@@ -34,8 +34,7 @@
 
 ##  Overview
 
-Parking-Detection is a system that uses computer vision and machine learning to detect available parking spots in a parking lot using Yolov8. The system is designed to be efficient, accurate, and easy to use.
-
+this is my final year master's project. It employs computer vision and machine learning to identify available parking spots in a lot, utilizing Yolov8 and ByteTrack. The system is designed to be efficient, accurate, and user-friendly.
 ---
 
 ##  Features
