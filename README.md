@@ -34,7 +34,7 @@
 
 ##  Overview
 
-this is my final year master's project. It employs computer vision and machine learning to identify available parking spots in a lot, utilizing Yolov8 and ByteTrack. The system is designed to be efficient, accurate, and user-friendly.
+This final year master's project applies computer vision and machine learning to develop an efficient, accurate, and user-friendly system for identifying available parking spots in a parking lot. The system leverages YOLOv8 for object detection and ByteTrack for multi-object tracking. To ensure robustness against variations in camera angles, the project utilizes the VisDrone dataset for training and evaluation.
 ---
 
 ##  Features
